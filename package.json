@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "test": "jest",
     "lint": "yarn eslint"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.6",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
@@ -22,7 +24,9 @@
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.30.1",
+    "jest": "^28.1.3",
     "prettier": "2.7.1",
+    "ts-jest": "^28.0.8",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
   }
